@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 150px;
+
+}
+
+.container div h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container div p {
+    font-size: 13px;
+    color: grey;
+}
+
+.fourth button {
+    padding: 0 10px;
+    height: 100%;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #f34336;
+    outline: 0;
+    cursor: pointer;
+    color: #16609c;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.fa-magnifying-glass {
+    padding-right: 10px;
+}
+
+.fourth button:hover {
+    background-color: #16609c;
+    color: white;
+    border-color: #16609c;
+}
+
+.second {
+    background-color: #16609c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.second h1 {
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.second div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.second .original a {
+    padding-left: 180px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.second a:hover {
+    cursor: pointer;
+}
+
+#sidebar {
+    position: fixed;
+    top: 180px;
+    left: 950px;
+    height: 70vh;
+    width: 400px;
+    z-index: 999;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+    backdrop-filter: blur(10px);
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+#sidebar a {
+    padding-top: 25px;
+}
+
+
+#close {
+    padding-left: 330px;
+}
+
+#sidebar a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/pexels-binyaminmellish-186077.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding-top: 130px;
+    padding-left: 40px;
+}
+
+.banner div {
+    background-color: white;
+    color: #16609c;
+    width: 560px;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgb(175, 175, 175);
+}
+
+.banner div h6 {
+    padding: 20px 50px;
+    color: rgb(247, 93, 119);
+    font-size: 14px;
+}
+
+.banner div h5 {
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 24px
+}
+
+.fa-map-signs {
+    padding-right: 5px;
+}
+
+.banner-para {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.banner-para li {
+    padding-left: 50px;
+}
+
+.banner-para:last-child {
+    padding-right: 10px;
+}
+
+.banner-para li i,
+span {
+    color: rgb(247, 93, 119);
+    font-size: 26px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.banner-para li h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner div button {
+    background: #16609c;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #16609c;
+    padding: 10px 15px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.banner div button:hover {
+    color: #16609c;
+    border: 2px solid #16609c;
+    background-color: #fff;
+}
+
+.search_property {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.search_property img {
+    margin-left: 100px;
+}
+
+.search_property div {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.search_property div h3 {
+    color: #16609c;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.para {
+    padding-top: 30px;
+    padding-right: 50px;
+    color: #7a7676;
+}
+
+.search_property div button {
+    background: rgb(247, 93, 119);
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid rgb(247, 93, 119);
+    padding: 10px 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.search_property div button:hover {
+    background-color: #16609c;
+    color: #fff;
+    border: 2px solid #16609c;
+}
+
+.third {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid green; */
+
+}
+
+.third div {
+    height: 300px;
+    width: 800px;
+    /* border: 2px solid red; */
+}
+
+.third-two {
+    background: rgb(247, 93, 119);
+    color: #fff;
+    padding-top: 120px;
+    text-align: center;
+
+}
+
+.third-two .fa-home {
+    color: #fff;
+    font-size: 26px;
+}
+
+.third-two h4 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.third-four {
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.third-four .fa-users {
+    font-size: 26px;
+}
+
+.third-four h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.third-four p {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+/* full project Management */
+
+.full_project {
+    display: flex;
+
+}
+
+#full-one {
+    padding-top: 30px;
+}
+
+#full-one h3 {
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px grey;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+#full-one p {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#full-one button {
+    background: rgb(247, 93, 119);
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid rgb(247, 93, 119);
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#full-one button:hover {
+    background-color: #16609c;
+    color: #fff;
+    border: 2px solid #16609c;
+}
+
+.full_project div img {
+    width: 675px;
+    height: 400px;
+}
+
+.building {
+    display: flex;
+}
+
+.building img {
+    width: 675px;
+    height: 400px;
+}
+
+.building-one {
+    width: 675px;
+    background: pink;
+    display: flex;
+}
+
+.building-one div div {
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.building-one div div h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.building-one div div p {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+.popular {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.popular h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.popular p {
+    font-size: 16px;
+}
+
+.cities {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+
+/* ---------------Gallery code--------------*/
+
+.single-team {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    height: 250px;
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.one {
+    margin-left: 150px;
+}
+
+.single-team:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .35s ease 0s
+}
+
+.single-team:hover:before {
+    opacity: 1
+}
+
+.single-team .content {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 1%;
+    left: 5%
+}
+
+.single-team .content:after,
+.single-team .content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .7s ease 0s
+}
+
+.single-team .content:before {
+    border-bottom: 10px double rgba(255, 255, 255, .5);
+    border-top: 10px double rgba(255, 255, 255, .5);
+    transform: scale(0, 1);
+    transform-origin: 0 0 0
+}
+
+.single-team .content:after {
+    border-left: 10px double rgba(255, 255, 255, .5);
+    border-right: 10px double rgba(255, 255, 255, .5);
+    transform: scale(1, 0);
+    transform-origin: 100% 0 0
+}
+
+.single-team:hover .content:after,
+.single-team:hover .content:before {
+    opacity: 1;
+    transform: scale(1);
+    transform: rotateY('angle');
+    transition-delay: .15s
+}
+
+.single-team h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin: 100px 0;
+    opacity: 0;
+    transform: translate3d(0, -50px, 0);
+    transition: transform .5s ease 0s;
+    text-align: center;
+}
+.single-team .content h3 span{
+    color: rgb(247, 93, 119);
+    font-size: 21px;
+}
+
+.single-team:hover h3 {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.reviews{
+    display: flex;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/reviews.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    margin-top: 80px;
+}
+.reviews .review-first,.review-second,.review-third{
+    background: #fff;
+    height: 230px;
+    margin-left: 30px;
+    width: 400px;
+    margin-top: 80px;
+}
+.review-first p, .review-second p, .review-third p{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.inner{
+    padding-top: 40px;
+    display: flex;
+    padding-left: 20px;
+}
+.inner img{
+    margin-right: 10px;
+}
+
+.inner div h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+.inner div h6{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* Footer CSS */
+
+.footer{
+    width: 100%;
+    background: rgb(53, 53, 53);
+    color: #fff;
+    display: flex;
+    height: 300px;
+}
+.footer .footer-one{
+    padding-top: 100px;
+     padding-left: 80px;
+     font-family: 'Poppins', sans-serif;
+     width: 550px;
+}
+.footer-one h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.footer-one p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.footer-two{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.footer-two h2{
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.footer-two a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-two a span{
+     font-size: 14px;
+     color: #fff;
+     padding-right: 10px;
+}
+.footer-two a:hover{
+    color: rgb(247, 93, 119);
+}
+
+.footer-third{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.footer-third h2{
+     font-size: 21px;
+     font-weight: 500;
+     padding-bottom: 10px;
+}
+.footer-third p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.end{
+    background: rgb(36, 36, 36);
+    width: 100%;
+}
+.end p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(146, 146, 146);
+    font-size: 14px;
+}
+.end p span{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 0px;
+}

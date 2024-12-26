@@ -1,0 +1,86 @@
+.contact-us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(../images/pexels-binyaminmellish-186077.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact-us a{
+    color: rgb(247, 93, 119);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-us span{
+     color: #fff;
+     font-size: 16px;
+}
+#form{
+    display: flex;
+    margin-top: 30px;
+}
+#contact{
+    margin-left: 100px;
+    width: 600px;
+}
+#contact input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+::placeholder{
+    font-size: 14px;
+}
+textarea::placeholder{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#contact textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+#contact button{
+    background: rgb(247, 93, 119);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 460px;
+}
+#contact button:hover{
+    background: #16609c;
+}
+#contact-text{
+    width: 550px;
+    margin-left: 30px;
+    padding-right: 40px;
+}
+#contact-text h2{
+     font-size: 26px;
+     font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+}
+#contact-text #contact-texted{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact-address{
+    padding-top: 20px;
+}
+#contact-address p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+#contact-address span{
+    color: #16609c;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.footer{
+    margin-top: 80px;
+}
